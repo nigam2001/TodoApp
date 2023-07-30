@@ -1,0 +1,25 @@
+div {
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+input:checked+label {
+    text-decoration: line-through;
+}
+
+label+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: left;
+    padding: 10px;
+    list-style: none;
+}
